@@ -21,22 +21,18 @@ new Image().src = "img/comicbook-sprite.png";
   doSpin = function(){
   	i=10;
   	spinHead();
+  	setTimeout('doSpin()', 7000);
   }
   
  setTimeout('doSpin()', 7000); 
  
 changePicture = function(){
-	//$('#heroes').slideUp("slow", function () {
-		var x = 'url(img/'+ ++pictureNo +'.jpg)';
+	var x = 'url(img/'+ ++pictureNo +'.jpg)';
 		
-		//console.log("before background-image: "+ $('#heroes').css('background-image'));
-		$('#heroes').css('background-image', x);
-			   //.slideDown("slow");
-		if (pictureNo > 14)
-			pictureNo = -1;
-		//console.log("after background-image: "+ $('#heroes').css('background-image'));
-	});
-	
+	$('#heroes').css('background-image', x);
+	if (pictureNo > 14)
+		pictureNo = -1;
+
 	setTimeout('changePicture()', 5000);
 }
 
