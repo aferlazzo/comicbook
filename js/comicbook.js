@@ -33,11 +33,28 @@ new Image().src = "img/15.jpg";
 	}
   }
   
+  $('#contact-tab').toggle(function(){
+  	$('#contact').css('left',0);
+  }, function(){
+  	$('#contact').css('left',-242);
+  });
+  
+  $('#dialog-box-close').click(function(){
+ 	$('#dialog-box').css({'display': 'none'});
+  });
+  
+ introDialog = function(){
+  	$('#dialog-box').slideDown('fast', 'easeOutBounce');
+ }
+
+setTimeout('introDialog()', 12000);  
+ 
+  
   
   doSpin = function(){
   	i=10;
   	spinHead();
-  	setTimeout('doSpin()', 7000);
+  	setTimeout('doSpin()', 200000);  // spin head every 20 seconds
   }
   
  setTimeout('doSpin()', 7000); 
