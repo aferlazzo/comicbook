@@ -6,7 +6,7 @@ new Image().src = "img/comicbook-sprite.png";
       $('#thisYear').text(Today.getFullYear());
   })();
   
-  var i;
+  var i, pictureNo=0;
   
   spinHead = function(){
 	$('#alfred-head').css({'-moz-transform': 'rotate(' + i + 'deg)',
@@ -24,3 +24,16 @@ new Image().src = "img/comicbook-sprite.png";
   }
   
  setTimeout('doSpin()', 7000); 
+ 
+changePicture = function(){
+	var x = 'url(img/'+ ++pictureNo +'.jpg)';
+		
+	$('#heroes').css('background-image', x);
+	if (pictureNo > 14)
+		pictureNo = -1;
+
+	setTimeout('changePicture()', 5000);
+}
+
+	setTimeout('changePicture()', 5000);
+  	

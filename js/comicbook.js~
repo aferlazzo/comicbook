@@ -6,7 +6,7 @@ new Image().src = "img/comicbook-sprite.png";
       $('#thisYear').text(Today.getFullYear());
   })();
   
-  var i;
+  var i, pictureNo=0;
   
   spinHead = function(){
 	$('#alfred-head').css({'-moz-transform': 'rotate(' + i + 'deg)',
@@ -17,10 +17,6 @@ new Image().src = "img/comicbook-sprite.png";
 	}
   }
   
-  $('#btn').click(function(){
-  	i=10;
-  	spinHead();
-  });
   
   doSpin = function(){
   	i=10;
@@ -28,3 +24,21 @@ new Image().src = "img/comicbook-sprite.png";
   }
   
  setTimeout('doSpin()', 7000); 
+ 
+changePicture = function(){
+	//$('#heroes').slideUp("slow", function () {
+		var x = 'url(img/'+ ++pictureNo +'.jpg)';
+		
+		//console.log("before background-image: "+ $('#heroes').css('background-image'));
+		$('#heroes').css('background-image', x);
+			   //.slideDown("slow");
+		if (pictureNo > 14)
+			pictureNo = -1;
+		//console.log("after background-image: "+ $('#heroes').css('background-image'));
+	});
+	
+	setTimeout('changePicture()', 5000);
+}
+
+	setTimeout('changePicture()', 5000);
+  	

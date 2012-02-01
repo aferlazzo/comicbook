@@ -38,7 +38,7 @@
  	 	<div id='veteran'></div>		
  	</div>
   	<div id='sbs-right'>
-  		<div id='heroes'></div>
+  		<div class='heroes'></div>
  	 	<div id='alfred'>
  	 		<div id='alfred-head'></div>
  	 	</div> 		

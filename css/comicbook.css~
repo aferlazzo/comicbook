@@ -144,6 +144,9 @@ table {
 	overflow: hidden;
 	background-color: #fff;
 	padding:4px;
+	-moz-box-shadow: 2px -2px 15px #333;
+	-webkit-box-shadow: 2px -2px 15px #333;
+	box-shadow: 2px -2px 15px #333;
 }
 #top{
 	background-color: #d50001;
@@ -184,6 +187,7 @@ table {
 	position: relative;
 	top:-31px;
 	left:121px;
+	z-index:5;
 }
 
 #sbs-left{
@@ -205,8 +209,10 @@ table {
 	position: relative;
 	top:-15px;
 	left:80px;
+	z-index:5;
 }
 #sbs-right{
+	position: relative;
 	background-color: #53b6dd;
 	float:right;
 	width:70%;
@@ -219,13 +225,24 @@ table {
 	height:850px;
 	position: relative;
 	top:20px;
-	left:110px;
+	left:30px;
 }#alfred-head{
-	background: red url('../img/comicbook-sprite.png') -363px -398px no-repeat;
-	width: 343px;
-	height:850px;
+	background: url('../img/comicbook-sprite.png') -363px -398px no-repeat;
+	width: 249px;
+	height:254px;
 	position: relative;
 	top:145px;
 	left:62px;
+}
+#heroes{
+	top:42px;
+	left:349px;
+	z-index:2;
+	position:absolute;
+	display:block;
+	background:url('../img/0.jpg');
+	width:140px;
+	height:180px;
+	border:7px solid #fff;
 }
 	
