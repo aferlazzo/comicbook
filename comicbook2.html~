@@ -74,7 +74,7 @@
 
 		</nav>
 		<h3>My Contribution</h3>
-		<div class='contrib'>
+		<div class='contrib' style='display:block;'>
 			<ul>
 				<li>Designed Site</li>
 				<li>Coded HTML, CSS, Javascript, jQuery, PHP</li>
@@ -115,6 +115,11 @@
 				<li>Coded HTML, CSS, Javascript, PHP</li>
 				<li>Wrote email content to send to over 10,000 realtors</li>
 			</ul>
+		</div>
+		
+		<div id='return'>
+			<p>More sites are coming soon! Please stay tuned...</p>
+			<p><a href='index.html'>Return</a> to the cover page.</p>
 		</div>
   </div>	
 

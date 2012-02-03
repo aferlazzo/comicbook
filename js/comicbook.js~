@@ -86,7 +86,7 @@ changePicture = function (){
 setTimeout('changePicture()', 5000);
 
 $('document').ready(function (){
-	var i, portfolioTimer = 0;
+	var i, portfolioTimer = null;
 	
 	$('.contrib:eq(0)').css('display', 'block');	
 	
@@ -108,7 +108,7 @@ $('document').ready(function (){
 	
 	//autostart display cycle
 	
-	(function (){
+	(function() {
 		var i, siteNo = 0;
 		
 		doIt = function(){
@@ -122,12 +122,19 @@ $('document').ready(function (){
 			$('.site-slice:eq('+ siteNo +')').css('display', 'block');
 			$('td:eq(' + siteNo + ')').html('&#9679;');
 			
-			portfolioTimer = setTimeout('doIt()', 5000);
+			if(++siteNo > 4)
+				siteNo = 0;
+				
+			if(isNaN(portfolioTimer) == false)
+				portfolioTimer = setTimeout('doIt()', 5000);
 		},
 		
+		
+		portfolioTimer = 1;
 		doIt();
 	})();
-	
+
+
 });
 
 

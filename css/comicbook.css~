@@ -134,7 +134,7 @@ input[type="text"]:focus {
 body{
 	background: #F8E8C0;
 	font-family: arial, helvetica, sans;
-	overflow: hidden;
+	overflow: scroll;
 }
 .bg{
 	width: 100%;
@@ -173,6 +173,8 @@ li{
 	font-size:30px;
 	line-height:1.5;
 }
+a{text-decoration:none;}
+a:hover{color:#fff;background-color:#069;}
 #contact div:nth-child(1) {
 	float:left;
 	overflow:hidden;
@@ -384,10 +386,6 @@ li{
 	font-size:30px;
 	line-height: 1.25;
 }
-.stroke {
- color: #fff; /* text color */
- -webkit-text-stroke: 2px #000; /* stroke color and weight */
-}
 /*
 #navigation{
 	top:340px;
@@ -417,9 +415,9 @@ table{
 }
 td{cursor:pointer;}
 #return{
-	display:relative;
-	bottom:20px;
-	left:50px;
+	position: absolute;
+	bottom: 8px;
+	left: 80px;
 }
 #circling-point{
 	width:4px;
@@ -433,4 +431,8 @@ canvas{
 	margin-top:100px;
 	margin-left:100px;
 	background:#fff;
+}
+.contrib:first-child{
+	display:block;
+	background-color:red;
 }
