@@ -90,7 +90,7 @@ $('document').ready(function (){
 	
 	$('.contrib:eq(0)').css('display', 'block');	
 	
-	$('td').click(function (){
+	$('td, a').click(function (){
 		var index = $(this).index();
 		clearTimeout(portfolioTimer);
 		

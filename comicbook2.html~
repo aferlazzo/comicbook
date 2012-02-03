@@ -5,7 +5,7 @@
 
   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
        Remove this if you use the .htaccess -->
-  <title>Portfolio 2</title>
+  <title>Anthony Ferlazzo Is a Looking for New Assignments</title>
   <meta name="description" content="Web developer comics!">
   <meta name="author" content="Anthony Ferlazzo">
 <!--
@@ -118,7 +118,8 @@
 		</div>
 		
 		<div id='return'>
-			<p>More sites are coming soon! Please stay tuned...</p>
+			<p>The rest of the story, and more sites are coming soon! In the mean time
+			look around at some of my older work and please stay tuned for more...</p>
 			<p><a href='index.html'>Return</a> to the cover page.</p>
 		</div>
   </div>	
