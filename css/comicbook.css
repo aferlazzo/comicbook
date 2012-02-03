@@ -134,7 +134,7 @@ input[type="text"]:focus {
 body{
 	background: #F8E8C0;
 	font-family: arial, helvetica, sans;
-	overflow: hidden;
+	overflow: scroll;
 }
 .bg{
 	width: 100%;
@@ -384,10 +384,6 @@ li{
 	font-size:30px;
 	line-height: 1.25;
 }
-.stroke {
- color: #fff; /* text color */
- -webkit-text-stroke: 2px #000; /* stroke color and weight */
-}
 /*
 #navigation{
 	top:340px;
@@ -433,4 +429,8 @@ canvas{
 	margin-top:100px;
 	margin-left:100px;
 	background:#fff;
+}
+.contrib:first-child{
+	display:block;
+	background-color:red;
 }
