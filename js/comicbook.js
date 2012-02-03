@@ -104,11 +104,11 @@ $('document').ready(function (){
 		$('.site-slice:eq('+ index +')').css('display', 'block');
 		$('td:eq(' + index + ')').html('&#9679;');
 	});
-/*	
+	
 	
 	//autostart display cycle
 	
-	(function (){
+	(function() {
 		var i, siteNo = 0;
 		
 		doIt = function(){
@@ -122,12 +122,16 @@ $('document').ready(function (){
 			$('.site-slice:eq('+ siteNo +')').css('display', 'block');
 			$('td:eq(' + siteNo + ')').html('&#9679;');
 			
+			if(++siteNo > 4)
+				siteNo = 0;
+			
 			portfolioTimer = setTimeout('doIt()', 5000);
 		},
 		
 		doIt();
 	})();
-*/
+
+
 });
 
 
