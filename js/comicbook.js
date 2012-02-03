@@ -86,11 +86,11 @@ changePicture = function (){
 setTimeout('changePicture()', 5000);
 
 $('document').ready(function (){
-	var i, portfolioTimer = 0;
+	var i, portfolioTimer = null;
 	
 	$('.contrib:eq(0)').css('display', 'block');	
 	
-	$('td').click(function (){
+	$('td, a').click(function (){
 		var index = $(this).index();
 		clearTimeout(portfolioTimer);
 		
@@ -124,10 +124,13 @@ $('document').ready(function (){
 			
 			if(++siteNo > 4)
 				siteNo = 0;
-			
-			portfolioTimer = setTimeout('doIt()', 5000);
+				
+			if(isNaN(portfolioTimer) == false)
+				portfolioTimer = setTimeout('doIt()', 5000);
 		},
 		
+		
+		portfolioTimer = 1;
 		doIt();
 	})();
 
