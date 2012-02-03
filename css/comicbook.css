@@ -127,25 +127,20 @@ table {
 	font-style: normal;
 
 }
-/*
-@font-face {
-	font-family: 'KomikaTextKapsBoldItalic';
-	src: url('fonts/KOMTXKBI-webfont.eot');
-	src: url('fonts/KOMTXKBI-webfont.eot?#iefix') format('embedded-body{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+input[type="text"]:focus {
+  outline: none;
 }
-*/
-
-
-
-
-
 
 body{
 	background: #F8E8C0;
 	font-family: arial, helvetica, sans;
-
+	overflow: hidden;
+}
+.bg{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 #contact{
 	position:absolute;
@@ -162,6 +157,21 @@ h2{
 p{
 	font-size:15px;
 	margin:20px;
+}
+h3{
+	font-size:50px;
+	font-weight:700;
+	margin: 45px 0 30px 100px;
+}
+ul{
+	margin:20px 0 0 100px;
+	list-style-type: disc;
+	list-style-position: outside;
+
+	}
+li{
+	font-size:30px;
+	line-height:1.5;
 }
 #contact div:nth-child(1) {
 	float:left;
@@ -190,7 +200,7 @@ p{
 	transform:rotate(-90deg);	
 }
 
-#cover{
+#cover, #comic-page{
 	position:relative;
 	border:4px solid #000;
 	width: 771px;
@@ -201,7 +211,39 @@ p{
 	padding:4px;
 	-moz-box-shadow: 2px -2px 15px #333;
 	-webkit-box-shadow: 2px -2px 15px #333;
+	-o-box-shadow: 2px -2px 15px #333;
 	box-shadow: 2px -2px 15px #333;
+}
+#comic-page{
+	background-color:rgba(255,255,255,.75);
+	border-radius:10px;
+	width:900px;
+}
+#site-slice-border{
+	margin:50px auto;
+	width:850px;
+	height:250px;
+	background-color:rgba(0,102,153,.35);
+	padding:10px;
+	border-radius:10px;
+}
+.site-slice{
+	display:none;
+	width:850px;
+	height:250px;
+	overflow:hidden;
+	border-radius: 7px;
+}
+.site-slice:nth-child(1){
+	display:block;
+}
+
+.contrib{
+	display:none;
+}
+.contrib:nth-child(1){
+	display:block;
+	background-color:red;
 }
 #top{
 	background-color: #d50001;
@@ -341,4 +383,49 @@ p{
 	margin:30px 40px;
 	font-size:30px;
 	line-height: 1.25;
+}
+.stroke {
+ color: #fff; /* text color */
+ -webkit-text-stroke: 2px #000; /* stroke color and weight */
+}
+/*
+#navigation{
+	top:340px;
+	left:678px;
+	position:absolute;
+	z-index:20;
+	border:4px dashed #069;
+	border-top-color:red;
+	border-right-color:orange;
+	border-bottom-color:yellow;
+	border-left-color:#069;
+	border-radius:50%;
+	width:200px;
+	height:200px;
+}
+*/
+#navigation{
+	top:340px;
+	left:678px;
+	position:absolute;
+	z-index:20;
+}
+table{
+	font-size:30px;
+	border-collapse: separate;
+	border-spacing: 12px;
+}
+td{cursor:pointer;}
+#circling-point{
+	width:4px;
+	height:4px;
+	background-color:#000;
+	position:absolute;
+	top:0;
+	left:0;
+}
+canvas{
+	margin-top:100px;
+	margin-left:100px;
+	background:#fff;
 }

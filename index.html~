@@ -38,9 +38,11 @@
   	
   	<div id='sbs-left'>
   		<p>
-  			See inside for the story of how one highly skilled but down-on-his-luck and out-of-work web 
+  			See <a href='comicbook2.html'>inside</a> for the story of how one highly skilled but down-on-his-luck and out-of-work web 
   			developer manages to overcome his interviewing ineptitude and find a job. 
   		</p>
+  		
+  		<in
  	 	<div id='veteran'></div>		
  	</div>
   	<div id='sbs-right'>
@@ -52,6 +54,7 @@
  	 	</div> 		
   	</div>
 	<div id='dialog-box'>
+		<div id='dialog-box-close'></div>
 		<h1>Anthony Ferlazzo</h1>
 		<p>
 			Anthony Ferlazzo is a Front-end Web Developer specializing
