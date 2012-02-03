@@ -234,14 +234,14 @@ li{
 	overflow:hidden;
 	border-radius: 7px;
 }
-.site-slice::nth-child(1){
+.site-slice:nth-child(1){
 	display:block;
 }
 
 .contrib{
 	display:none;
 }
-.contrib::nth-child(1){
+.contrib:nth-child(1){
 	display:block;
 	background-color:red;
 }
@@ -416,6 +416,11 @@ table{
 	border-spacing: 12px;
 }
 td{cursor:pointer;}
+#return{
+	display:relative;
+	bottom:20px;
+	left:50px;
+}
 #circling-point{
 	width:4px;
 	height:4px;

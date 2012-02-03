@@ -16,6 +16,12 @@ new Image().src = "img/12.jpg";
 new Image().src = "img/13.jpg";
 new Image().src = "img/14.jpg";
 new Image().src = "img/15.jpg";
+new Image().src = "img/pronto.png";
+new Image().src = "img/lightning.png";
+new Image().src = "imgclipper.png";
+new Image().src = "img/mapmarkers.png";
+new Image().src = "img/perfect-response.png";
+new Image().src = "img/batman-background.jpg";
 
 (function () {  // self-executing anonymous function for copyright notice
       var Today = new Date();

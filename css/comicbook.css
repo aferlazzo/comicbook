@@ -416,6 +416,11 @@ table{
 	border-spacing: 12px;
 }
 td{cursor:pointer;}
+#return{
+	position: absolute;
+	bottom: 8px;
+	left: 80px;
+}
 #circling-point{
 	width:4px;
 	height:4px;
