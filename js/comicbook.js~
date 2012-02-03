@@ -16,6 +16,11 @@ new Image().src = "img/12.jpg";
 new Image().src = "img/13.jpg";
 new Image().src = "img/14.jpg";
 new Image().src = "img/15.jpg";
+new Image().src = "img/pronto.png";
+new Image().src = "img/lightning.png";
+new Image().src = "img/clipper.png";
+new Image().src = "img/mapmarkers.png";
+new Image().src = "img/perfect-response.png";
 new Image().src = "img/batman-background.jpg";
 
 (function () {  // self-executing anonymous function for copyright notice
@@ -81,11 +86,14 @@ changePicture = function (){
 setTimeout('changePicture()', 5000);
 
 $('document').ready(function (){
+	var i, portfolioTimer = 0;
 	
 	$('.contrib:eq(0)').css('display', 'block');	
 	
 	$('td').click(function (){
 		var index = $(this).index();
+		clearTimeout(portfolioTimer);
+		
 		$('td').each(function (i) {
 			$('.contrib:eq('+ i +')').css('display', 'none');
 			$('.site-slice:eq('+ i +')').css('display', 'none');
@@ -96,6 +104,30 @@ $('document').ready(function (){
 		$('.site-slice:eq('+ index +')').css('display', 'block');
 		$('td:eq(' + index + ')').html('&#9679;');
 	});
+	
+	
+	//autostart display cycle
+	
+	(function (){
+		var i, siteNo = 0;
+		
+		doIt = function(){
+			$('td').each(function (i) {
+				$('.contrib:eq('+ i +')').css('display', 'none');
+				$('.site-slice:eq('+ i +')').css('display', 'none');
+				$('td:eq(' + i + ')').html('&#9675;');
+			});
+			
+			$('.contrib:eq('+ siteNo +')').css('display', 'block');
+			$('.site-slice:eq('+ siteNo +')').css('display', 'block');
+			$('td:eq(' + siteNo + ')').html('&#9679;');
+			
+			portfolioTimer = setTimeout('doIt()', 5000);
+		},
+		
+		doIt();
+	})();
+	
 });
 
 
