@@ -75,7 +75,7 @@ new Image().src = "img/sbs-right-bg.jpg";
  	 	<div id='alfred'>
  	 		<div id='alfred-head'></div>
  	 	</div>
-		<div id='veteran'>Anthony Ferlazzo<br>AKA Alfred E. Neuman<br><br>Silicon Valley Veteran and Website Hero</div> 		
+		<div id='veteran'>Anthony Ferlazzo<br>aka Alfred E. Neuman<br><br>Silicon Valley Veteran and Website Hero</div> 		
   	</div>
 	<div id='dialog-box'>
 		<div id='dialog-box-close'></div>

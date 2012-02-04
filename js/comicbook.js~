@@ -13,7 +13,7 @@ spinHead = function (){
 	$('#alfred-head').css({'-moz-transform': 'rotate(' + i + 'deg)',
 					 '-webkit-transform': 'rotate(' + i + 'deg)'});
   	i += 20;
-  	if(i < 370){
+  	if(i < 365){
   		spinTimer = setTimeout('spinHead()', 3);
   	} else {
   		spinTimer = null;

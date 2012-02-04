@@ -309,18 +309,17 @@ td{cursor:pointer;}
 }
 #sbs-left a{padding:0 3px;}
 #veteran{
-	/*background: url('../img/comicbook-sprite.png') -380px -265px no-repeat;*/
-	width:420px;
-	height:89px;
+	background: url('../img/comicbook-sprite.png') -9px -690px no-repeat;
+	width:478px;
+	height:95px;
 	position: relative;
-	top:97px;
-	left:46px;
+	top:88px;
+	left:-50px;
 	text-align:center;
 	font-size:22px;
 	font-weight:700;
 	z-index:5;
 	color:#fff;
-	/*-webkit-transform: rotate(11deg);*/
 }
 #sbs-right{
 	position: relative;
@@ -379,8 +378,7 @@ td{cursor:pointer;}
 	background-color:rgba(0,0,0,.75);
 	border-radius:10px;
 	overflow:hidden;
-	/*opacity:0.8;
-	filter:alpha(opacity=80); /* For IE8 and earlier */
+	height:700px;
 	box-shadow: 4px -4px 14px #333;
 }
 #dialog-box-close{
