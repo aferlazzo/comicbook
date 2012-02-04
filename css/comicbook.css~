@@ -229,7 +229,7 @@ td{cursor:pointer;}
 }
 #cover{display:none;height:752px;}
 #site-slice-border{
-	margin:50px auto;
+	margin:10px auto 50px;
 	width:850px;
 	height:250px;
 	background-color:rgba(0,102,153,.35);
@@ -323,7 +323,7 @@ td{cursor:pointer;}
 	background: url('../img/sbs-right-bg.jpg') no-repeat;
 	float:right;
 	width:540px;
-	height:636px;
+	height:562px;
 }	
 
 #alfred{
@@ -345,6 +345,12 @@ td{cursor:pointer;}
 	background-image: url('../img/0.jpg');
 	width:140px;
 	height:180px;
+}
+#p2-head{
+	margin: 20px auto 0;
+	background-image: url('../img/p2-head.png');
+	width:794px;
+	height:66px;
 }
 #heroFrame{
 	position:absolute;

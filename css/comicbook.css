@@ -229,7 +229,7 @@ td{cursor:pointer;}
 }
 #cover{display:none;height:752px;}
 #site-slice-border{
-	margin:50px auto;
+	margin:10px auto 50px;
 	width:850px;
 	height:250px;
 	background-color:rgba(0,102,153,.35);
@@ -346,6 +346,12 @@ td{cursor:pointer;}
 	width:140px;
 	height:180px;
 }
+#p2-head{
+	margin: 20px auto 0;
+	background-image: url('../img/p2-head.png');
+	width:794px;
+	height:66px;
+}
 #heroFrame{
 	position:absolute;
 	top:42px;
@@ -413,7 +419,7 @@ td{cursor:pointer;}
 }
 */
 #navigation{
-	top:340px;
+	top:377px;
 	left:678px;
 	position:absolute;
 	z-index:20;

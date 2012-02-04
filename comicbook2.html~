@@ -20,8 +20,9 @@
 	new Image().src = "img/lightning.png";
 	new Image().src = "img/clipper.png";
 	new Image().src = "img/mapmarkers.png";
-	new Image().src = "img/perfect-response.png";
+	new Image().src = "img/perfect-response.jpg";
 	new Image().src = "img/batman-background.jpg";
+	new Image().src = "img/p2-head.png";
 	</script>	
 </head>
 
@@ -36,6 +37,7 @@
   	<div id='contact-tab'>Contact</div>
   </div>
   <div id='comic-page'>
+  		<div id='p2-head'></div>
 		<div id='site-slice-border'>
 			<div class='site-slice'>
 				<a href='http://www.prontocommercial.com' target='_blank' title='the Pronto Commercial Funding site'>
