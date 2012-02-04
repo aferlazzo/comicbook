@@ -5,7 +5,7 @@
       $('#thisYear').text(Today.getFullYear());
 })();
 
-var i, pictureNo = 0;
+var i, pictureNo = 0, spinTimer = null;
 
 // code for spinning Alfred's head
 
@@ -13,8 +13,10 @@ spinHead = function (){
 	$('#alfred-head').css({'-moz-transform': 'rotate(' + i + 'deg)',
 					 '-webkit-transform': 'rotate(' + i + 'deg)'});
   	i += 20;
-  	if(i < 361){
-  		setTimeout('spinHead()', 3);
+  	if(i < 375){
+  		spinTimer = setTimeout('spinHead()', 3);
+  	} else {
+  		spinTimer = null;
 	}
 };
 
@@ -25,6 +27,11 @@ doSpin = function (){
 };
 
 setTimeout('doSpin ()', 7000);
+
+$('#alfred-head').click(function(){
+	if(spinTimer == null)
+		doSpin();
+});
 
 //- - - - - - - -
 

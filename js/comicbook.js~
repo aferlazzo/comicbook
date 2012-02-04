@@ -1,35 +1,11 @@
-// handy trick for preloaing images
-new Image().src = "img/comicbook-sprite.png";
-new Image().src = "img/0.jpg";
-new Image().src = "img/1.jpg";
-new Image().src = "img/2.jpg";
-new Image().src = "img/3.jpg";
-new Image().src = "img/4.jpg";
-new Image().src = "img/5.jpg";
-new Image().src = "img/6.jpg";
-new Image().src = "img/7.jpg";
-new Image().src = "img/8.jpg";
-new Image().src = "img/9.jpg";
-new Image().src = "img/10.jpg";
-new Image().src = "img/11.jpg";
-new Image().src = "img/12.jpg";
-new Image().src = "img/13.jpg";
-new Image().src = "img/14.jpg";
-new Image().src = "img/15.jpg";
-new Image().src = "img/pronto.png";
-new Image().src = "img/lightning.png";
-new Image().src = "img/clipper.png";
-new Image().src = "img/mapmarkers.png";
-new Image().src = "img/perfect-response.png";
-new Image().src = "img/batman-background.jpg";
-new Image().src = "img/sbs-right-bg.jpg";
+
 
 (function () {  // self-executing anonymous function for copyright notice
       var Today = new Date();
       $('#thisYear').text(Today.getFullYear());
 })();
 
-var i, pictureNo = 0;
+var i, pictureNo = 0, spinTimer = null;
 
 // code for spinning Alfred's head
 
@@ -37,8 +13,10 @@ spinHead = function (){
 	$('#alfred-head').css({'-moz-transform': 'rotate(' + i + 'deg)',
 					 '-webkit-transform': 'rotate(' + i + 'deg)'});
   	i += 20;
-  	if(i < 361){
-  		setTimeout('spinHead()', 3);
+  	if(i < 370){
+  		spinTimer = setTimeout('spinHead()', 3);
+  	} else {
+  		spinTimer = null;
 	}
 };
 
@@ -49,6 +27,11 @@ doSpin = function (){
 };
 
 setTimeout('doSpin ()', 7000);
+
+$('#alfred-head').click(function(){
+	if(spinTimer == null)
+		doSpin();
+});
 
 //- - - - - - - -
 
