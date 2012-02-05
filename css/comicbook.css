@@ -159,39 +159,33 @@ p{
 	margin:20px;
 }
 h3{
-	font-size:40px;
+	font-size:30px;
 	font-weight:700;
 	margin: 45px 0 20px 100px;
 }
 ul{
-	margin:20px 0 0 100px;
+	margin:20px 0 0 56px;
 	list-style-type: disc;
 	list-style-position: outside;
 
 	}
 li{
 	font-size:25px;
-	line-height:1.5;
+	margin-bottom:12px;
 }
 a{text-decoration:none;}
 a:hover{color:#fff;background-color:#069;}
-table{
-	font-size:30px;
-	border-collapse: separate;
-	border-spacing: 5px;
-}
-td{cursor:pointer;}
 #contact div:nth-child(1) {
 	float:left;
 	overflow:hidden;
 	color:#fff;
-	background-color:rgba(0,100,0,.75);
+	background-color:rgba(243,52,8,.75);
 	border-radius: 0 10px 10px 0;
 	width:242px;
 	height:211px;
 }
 #contact-tab{
-	background-color:rgba(0,100,0,.75);
+	background-color:rgba(243,52,8,.75);
 	color:#fff;
 	float:left;
 	overflow:hidden;
@@ -249,10 +243,10 @@ td{cursor:pointer;}
 
 .contrib{
 	display:none;
+	width:670px;
 }
 .contrib:nth-child(1){
 	display:block;
-	background-color:red;
 }
 #top{
 	background-color: #d50001;
@@ -405,47 +399,57 @@ td{cursor:pointer;}
 	line-height: 1.25;
 }
 #dialog-box p.small{font-size:15px;}
-/*
 #navigation{
-	top:340px;
-	left:678px;
+	top:379px;
+	left:699px;
+	width:58px;
+	height:58px;
 	position:absolute;
 	z-index:20;
-	border:4px dashed #069;
-	border-top-color:red;
-	border-right-color:orange;
-	border-bottom-color:yellow;
-	border-left-color:#069;
-	border-radius:50%;
-	width:200px;
-	height:200px;
+	border: 16px solid transparent;
 }
-*/
-#navigation{
-	top:377px;
-	left:678px;
+#navigation-back{
+	top:379px;
+	left:699px;
+	position:absolute;
+	z-index:19;
+	border: 16px solid rgba(0,0,0,.1);
+	border-radius: 50%;
+	width: 58px;
+	height: 58px;
+}
+nav ul li{
 	position:absolute;
 	z-index:20;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li{
+	cursor:pointer;
+}
+.circleDot0{
+	top:-3px;
+	left:-11px;
+}
+.circleDot1{
+	top:-23px;
+	left:22px;
+}
+.circleDot2{
+	top:-3px;
+	left:56px;
+}
+.circleDot3{
+	top:41px;
+	left:47px;
+}
+.circleDot4{
+	top:41px;
+	left:-3px;
 }
 #return{
 	position: absolute;
 	bottom: 8px;
-	left: 80px;
-}
-#circling-point{
-	width:4px;
-	height:4px;
-	background-color:#000;
-	position:absolute;
-	top:0;
-	left:0;
-}
-canvas{
-	margin-top:100px;
-	margin-left:100px;
-	background:#fff;
-}
-.contrib:first-child{
-	display:block;
-	background-color:red;
+	left: 15px;
 }
