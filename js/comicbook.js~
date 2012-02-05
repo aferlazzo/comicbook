@@ -99,7 +99,7 @@ $('document').ready(function (){
 			$('.circleDot').each(function (i) {
 				$('.contrib:eq('+ i +')').css('display', 'none');
 				$('.site-slice:eq('+ i +')').css('display', 'none');
-				$('.circleDot' + vBullet).html('&#9675;');
+				$('.circleDot' + siteNo).html('&#9675;');
 			});
 			
 			if(++siteNo > 4)
@@ -107,7 +107,7 @@ $('document').ready(function (){
 				
 			$('.contrib:eq('+ siteNo +')').css('display', 'block');
 			$('.site-slice:eq('+ siteNo +')').css('display', 'block');
-			$('.circleDot' + vBullet).html('&#9679;');
+			$('.circleDot' + siteNo).html('&#9679;');
 			
 			if(isNaN(portfolioTimer) == false)
 				portfolioTimer = setTimeout('doIt()', 5000);

@@ -73,8 +73,8 @@ $('document').ready(function (){
 	var i, portfolioTimer = null;
 	
 	
-	// click on a circle/dot or on the site thumbnail to stop cycling	
-	$('.circleDot, a').click(function (){
+	// click on a circle/dot, the star, or on the site thumbnail to stop cycling	
+	$('.circleDot, a, #star').click(function (){
 		var cDindex = $(this).index();
 		clearTimeout(portfolioTimer);
 		
