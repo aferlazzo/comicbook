@@ -104,7 +104,7 @@ $('document').ready(function (){
 			
 			if(++siteNo > 4)
 				siteNo = 0;
-				
+
 			$('.contrib:eq('+ siteNo +')').css('display', 'block');
 			$('.site-slice:eq('+ siteNo +')').css('display', 'block');
 			$('.circleDot' + siteNo).html('&#9679;');
@@ -118,6 +118,6 @@ $('document').ready(function (){
 		doIt();
 	})();
 
-	$('#cover, .contrib:eq(0)').css('display', 'block');	
+	$('#cover, .contrib:eq(1)').css('display', 'block');	
 
 });

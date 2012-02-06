@@ -73,8 +73,8 @@ $('document').ready(function (){
 	var i, portfolioTimer = null;
 	
 	
-	// click on a circle/dot or on the site thumbnail to stop cycling	
-	$('.circleDot, a').click(function (){
+	// click on a circle/dot, the star, or on the site thumbnail to stop cycling	
+	$('.circleDot, a, #star').click(function (){
 		var cDindex = $(this).index();
 		clearTimeout(portfolioTimer);
 		
@@ -97,6 +97,7 @@ $('document').ready(function (){
 		
 		doIt = function(){
 			$('.circleDot').each(function (i) {
+				console.log('hiding contrib'+i);
 				$('.contrib:eq('+ i +')').css('display', 'none');
 				$('.site-slice:eq('+ i +')').css('display', 'none');
 				$('.circleDot' + siteNo).html('&#9675;');
@@ -105,12 +106,13 @@ $('document').ready(function (){
 			if(++siteNo > 4)
 				siteNo = 0;
 				
+			console.log('showing contrib'+siteNo);
 			$('.contrib:eq('+ siteNo +')').css('display', 'block');
 			$('.site-slice:eq('+ siteNo +')').css('display', 'block');
 			$('.circleDot' + siteNo).html('&#9679;');
 			
-			if(isNaN(portfolioTimer) == false)
-				portfolioTimer = setTimeout('doIt()', 5000);
+			//if(isNaN(portfolioTimer) == false)
+			//	portfolioTimer = setTimeout('doIt()', 5000);
 		},
 		
 		
@@ -118,6 +120,6 @@ $('document').ready(function (){
 		doIt();
 	})();
 
-	$('#cover, .contrib:eq(0)').css('display', 'block');	
+	$('#cover, .contrib:eq(1)').css('display', 'block');	
 
 });

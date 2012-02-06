@@ -1,7 +1,7 @@
 view_main_toolbar: 1
 bmarksearchmode: 0
-snr_scope: 0
-snr_type: 0
+snr_scope: 2
+snr_type: 1
 view_cline: 1
 editor_indent_wspaces: 0
 c2e.convert_xml: 1
@@ -32,11 +32,16 @@ snippets_show_as_menu: 0
 bookmarks_show_mode: 0
 outputb_show_all_output: 0
 autocomplete: 0
+searchlist: index
+searchlist: .vis
+searchlist: vis
+searchlist: &nbsp;
+searchlist: <td
+searchlist: td>
+searchlist: nbsp
+searchlist: >Z</td>
+searchlist: ></td>
 searchlist: function(
-searchlist: fun1
-searchlist: fun2
-searchlist: 
-searchlist: 
 spell_lang: en
 c2e.convert_symbol: 0
 snr_escape_chars: 0
@@ -44,7 +49,7 @@ view_blockstack: 1
 last_filefilter: 
 spell_insert_entities: 0
 spell_check_default: 0
-savedir: file:///home/anthony/www/comicbook/css
+savedir: file:///home/anthony/www/comicbook
 files: /home/anthony/www/comicbook/js/comicbook.js
 files: /home/anthony/www/comicbook/css/comicbook.css
 files: /home/anthony/www/comicbook/comicbook2.html
@@ -57,17 +62,23 @@ recent_files: file:///home/anthony/www/comicbook/comicbook2.html
 recent_files: file:///home/anthony/www/comicbook/js/comicbook.js
 recent_files: file:///home/anthony/www/others/clipper/README
 recent_files: file:///home/anthony/www/others/findlaw.com/caselaw.findlaw.com/court/us-9th-circuit/css/jquery.ui.all.css
-charmap_block: 80
+charmap_block: 4
 e2c.convert_iso: 0
 enable_syntax_scan: 1
 outputb_scroll_mode: 0
 leftpanel_active_tab: 3
 c2e.IE_apos_workaround: 0
 display_right_margin: 0
+replacelist: cDindex
+replacelist: .circleDot
+replacelist: circleDot
+replacelist: &#9675;
+replacelist: <li
+replacelist: li>
+replacelist: &nbsp
+replacelist: >nbsp;</td>
+replacelist: >Z</td>
 replacelist: function (
-replacelist: greenWave
-replacelist: blueWave
-replacelist: \\t
 editor_tab_width: 4
 view_statusbar: 1
 fb_show_hidden_f: 0
