@@ -217,7 +217,7 @@ a:hover{color:#fff;background-color:#069;}
 	box-shadow: 2px -2px 15px #333;
 }
 #comic-page{
-	background-color:rgba(255,255,255,.75);
+	background-color:rgba(255,255,255,.5);
 	border-radius:10px;
 	width:900px;
 }
@@ -237,7 +237,7 @@ a:hover{color:#fff;background-color:#069;}
 	overflow:hidden;
 	border-radius: 7px;
 }
-.site-slice:nth-child(2){
+.site-slice:nth-child(1){
 	display:block;
 }
 
@@ -245,9 +245,11 @@ a:hover{color:#fff;background-color:#069;}
 	display:none;
 	width:670px;
 }
-.contrib:nth-child(2){
+/*
+.contrib:nth-child(1){
 	display:block;
 }
+*/
 #top{
 	background-color: #d50001;
 	width:100%;
