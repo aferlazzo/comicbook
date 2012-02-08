@@ -184,9 +184,11 @@ p{
 	margin:20px;
 }
 h3{
-	font-size:30px;
-	font-weight:700;
-	margin: 45px 0 20px 100px;
+	font-size:26px;
+	font-family: 'Bowlby One SC';
+	margin: 45px 0 20px 57px;
+	color: white;
+	text-shadow: 2px -2px 2px black;
 }
 ul{
 	margin:20px 0 0 56px;
@@ -255,6 +257,7 @@ a:hover{color:#fff;background-color:#069;}
 	background-color:rgba(0,102,153,.35);
 	padding:10px;
 	border-radius:10px;
+	box-shadow: 2px -2px 11px #000, -2px 2px 11px #000;
 }
 .site-slice{
 	display:none;
@@ -445,6 +448,7 @@ a:hover{color:#fff;background-color:#069;}
 	border-radius: 50%;
 	width: 75px;
 	height: 75px;
+	box-shadow: inset 1px -1px 3px #000, 1px -1px 3px #000;
 }
 #navigation span{
 	color:rgba(0,0,0,.1);
