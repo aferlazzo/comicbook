@@ -5,7 +5,7 @@
       $('#thisYear').text(Today.getFullYear());
 })();
 
-var i, pictureNo = 0, spinTimer = null;
+var i, pictureNo = -1, spinTimer = null;
 
 // code for spinning Alfred's head
 

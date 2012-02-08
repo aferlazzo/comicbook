@@ -127,6 +127,13 @@ table {
 	font-style: normal;
 
 }
+@font-face {
+  font-family: 'Bowlby One SC';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url('http://themes.googleusercontent.com/static/fonts/bowlbyonesc/v3/8ZkeXftTuzKBtmxOYXoReXSZ6Kd_eOJbDsY1hLBynIs.woff') format('woff');
+}
+
 input[type="text"]:focus {
   outline: none;
 }
@@ -153,6 +160,24 @@ h2{
 	font-size:20px;
 	font-weight:700;
 	margin:50px 20px 20px;
+}
+h6 {
+	font-size: 70px;
+	font-weight: normal;
+	margin: 0;
+	text-shadow: 1px 3px 5px #000, -1px 2px 6px #000;
+	color: #e1d703;
+	font-family: 'Bowlby One SC',"Arial Black",sans-serif;
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-ms-transform-origin:37px -73px;
+	-moz-transform:rotate(-90deg); /* Firefox */
+	-moz-transform-origin:37px -73px;
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+	-webkit-transform-origin:37px -73px;
+	-o-transform:rotate(-90deg); /* Opera */
+	-o-transform-origin:37px -73px;
+	transform:rotate(-90deg);	
+	transform-origin:37px -73px;
 }
 p{
 	font-size:15px;
@@ -220,6 +245,7 @@ a:hover{color:#fff;background-color:#069;}
 	background-color:rgba(255,255,255,.5);
 	border-radius:10px;
 	width:900px;
+	border-color:transparent;
 }
 #cover{display:none;height:752px;}
 #site-slice-border{
@@ -309,7 +335,7 @@ a:hover{color:#fff;background-color:#069;}
 	width:478px;
 	height:95px;
 	position: relative;
-	top:84px;
+	top:49px;
 	left:1px;
 	text-align:center;
 	font-size:22px;
@@ -325,20 +351,20 @@ a:hover{color:#fff;background-color:#069;}
 	height:562px;
 }	
 
-#alfred{
+#alfred-caption{
 	background: url('../img/comicbook-sprite.png') -9px -258px no-repeat;
-	width: 343px;
-	height:344px;
+	width: 208px;
+	height:146px;
 	position: relative;
-	top:20px;
+	top:36px;
 	left:58px;
 }#alfred-head{
 	background: url('../img/comicbook-sprite.png') -363px -398px no-repeat;
 	width: 249px;
 	height:254px;
 	position: relative;
-	top:145px;
-	left:62px;
+	top:40px;
+	left:116px;
 	cursor:pointer;
 }
 #heroes{
