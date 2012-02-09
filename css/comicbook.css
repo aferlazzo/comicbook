@@ -323,7 +323,7 @@ a:hover{color:#fff;background-color:#069;}
 #sbs-left{
 	background-color: #e1d703;
 	float: left;
-	width:30%;
+	width:231px;
 	height:565px;
 }
 #sbs-left p{
@@ -349,7 +349,7 @@ a:hover{color:#fff;background-color:#069;}
 #sbs-right{
 	position: relative;
 	background: url('../img/sbs-right-bg.jpg') no-repeat;
-	float:right;
+	float:left;
 	width:540px;
 	height:562px;
 }	

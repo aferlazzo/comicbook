@@ -49,7 +49,7 @@ view_blockstack: 1
 last_filefilter: 
 spell_insert_entities: 0
 spell_check_default: 0
-savedir: file:///home/anthony/www/comicbook
+savedir: file:///home/anthony/www/comicbook/css
 files: /home/anthony/www/comicbook/js/comicbook.js
 files: /home/anthony/www/comicbook/css/comicbook.css
 files: /home/anthony/www/comicbook/comicbook2.html
