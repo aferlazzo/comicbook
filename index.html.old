@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Available for New Projects</title>
+  <meta name="description" content="Web developer comics!">
+  <meta name="author" content="Anthony Ferlazzo">
+<!--
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+-->
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/comicbook.css"> 
+  <script>
+  // handy trick for preloading images
+new Image().src = "img/sbs-right-bg.jpg";
+new Image().src = "img/comicbook-sprite.png";
+new Image().src = "img/0.jpg";
+new Image().src = "img/1.jpg";
+new Image().src = "img/2.jpg";
+new Image().src = "img/3.jpg";
+new Image().src = "img/4.jpg";
+new Image().src = "img/5.jpg";
+new Image().src = "img/6.jpg";
+new Image().src = "img/7.jpg";
+new Image().src = "img/8.jpg";
+new Image().src = "img/9.jpg";
+new Image().src = "img/10.jpg";
+new Image().src = "img/11.jpg";
+new Image().src = "img/12.jpg";
+new Image().src = "img/13.jpg";
+new Image().src = "img/14.jpg";
+new Image().src = "img/15.jpg";
+</script>
+</head>
+
+<body>
+  <div id='contact'>
+  	<div>
+  		<h2>Contact Anthony</h2>
+  		<p>Phone: 925.399.5359</p>
+  		<p>Email: aferlazzo@gmail.com</p>
+ 	 	<p><a href='Ferlazzo_github_portfolio.doc'>Download Resume</a></p>
+   	</div>
+  	<div id='contact-tab'>Contact</div>
+  </div>
+  <div id='cover'>
+  	<div id='top'>
+ 	 	<div id='price'></div> 		
+ 	 	<div id='adventures'></div>		
+ 	 	<div id='front-end'></div>		
+ 	 	<div id='full-length'></div>		
+  	</div>
+  	
+  	<div id='sbs-left'>
+  		<p>
+  			See <a href='comicbook2.html'>inside</a> for the story of how, in this world
+  			seemingly filled with website superheroes, one highly skilled but down-on-his-luck and out-of-work web 
+  			developer manages to overcome his interviewing ineptitude and find a superhero job. 
+  		</p>
+ 	 	<p>
+ 	 		<a href='comicbook2.html'>Look Inside</a><br>
+ 	 	</p>	
+ 	</div>
+  	<div id='sbs-right'>
+  		<div id='heroFrame'>
+  			<div id='heroes'></div>
+  		</div>
+ 	 	<div id='alfred-caption'></div>
+ 	 	<div id='alfred-head'></div>
+ 		<div id='veteran'></div> 		
+  	</div>
+	<div id='dialog-box'>
+		<div id='dialog-box-close' title='Annoying, huh?'></div>
+		<h1>Anthony Ferlazzo</h1>
+		<p>
+			Anthony Ferlazzo is a Front-end Web Developer specializing
+			in HTML5, CSS3, JavaScript, and jQuery with some PHP thrown in on
+			the back-end as needed.
+		</p>
+		<p class='small'>
+			Best viewed using a modern browser such as Chrome 8+, Firefox 4+, Opera 10+, 
+			or IE 9+.
+		</p>
+	</div>
+  </div>
+  <!--
+	<h6>Website Portfolio</h6>
+  -->
+
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script src='js/comicbook.js'></script>
+</body>
+</html>

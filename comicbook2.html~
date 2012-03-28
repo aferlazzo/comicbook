@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <title>Available for New Assignments</title>
+  <meta name="description" content="Web developer comics!">
+  <meta name="author" content="Anthony Ferlazzo">
+<!--
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+-->
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/comicbook.css"> 
+	<script>
+	new Image().src = "img/pronto.png";
+	new Image().src = "img/lightning.png";
+	new Image().src = "img/clipper.png";
+	new Image().src = "img/mapmarkers.png";
+	new Image().src = "img/perfect-response.jpg";
+	new Image().src = "img/batman-background.jpg";
+	new Image().src = "img/p2-head.png";
+	</script>	
+</head>
+
+<body>
+	<img src='./img/batman-background.jpg' class='bg' alt=''>
+  <div id='contact'>
+  	<div>
+  		<h2>Contact Anthony</h2>
+  		<p>Phone: 925.399.5359</p>
+  		<p>Email: aferlazzo@gmail.com</p>
+ 	 	<p><a href='Ferlazzo_github_portfolio.doc'>Download Resume</a></p>
+ 	</div>
+  	<div id='contact-tab'>Contact</div>
+  </div>
+  <div id='comic-page'>
+  		<div id='p2-head'></div>
+		<div id='site-slice-border'>
+			<div class='site-slice'>
+				<a href='http://www.prontocommercial.com' target='_blank' title='View the Pronto Commercial Funding site'>
+					<img src='./img/pronto.png' alt=''>
+				</a>
+			</div>
+			<div class='site-slice'>
+				<a href='http://www.lightning-mortgage.com' target='_blank' title='View the Lightning Mortgage site'>
+					<img src='./img/lightning.png' alt=''>
+				</a>
+			</div>
+			<div class='site-slice'>
+				<a href='http://www.prontocommercial.com/mapmarkers/' target='_blank' title='View the Map Markers site'>
+					<img src='./img/mapmarkers.png' alt=''>
+				</a>
+			</div>
+			<div class='site-slice'>
+				<a href='http://www.prontocommercial.com/clipper/' target='_blank' title='View the Sprite Clipper site'>
+					<img src='./img/clipper.png' alt=''>
+				</a>
+			</div>
+			<div class='site-slice'>
+				<a href='./img/perfect-response-full.png' target='_blank' title='View the Perfect Response full screenshot'>
+					<img src='./img/perfect-response.png' alt=''>
+				</a>
+			</div>
+		</div>
+		<nav id='navigation-back'></nav>
+		<nav id='navigation'>
+			<span id='star'>&#9733;</span>
+<!--
+&#9675; unfilled
+&#9679; filled
+-->
+			<ul>
+				<li class='circleDot circleDot0'>&#9675;</li>
+				<li class='circleDot circleDot1'>&#9675;</li>
+				<li class='circleDot circleDot2'>&#9675;</li>
+				<li class='circleDot circleDot3'>&#9675;</li>
+				<li class='circleDot circleDot4'>&#9675;</li>
+			</ul>
+		</nav>
+		<h3>My Contribution to The Above Site</h3>
+		<div class='contrib'>
+			<ul>
+				<li>0 Designed Site</li>
+				<li>Coded HTML, CSS, Javascript, jQuery, PHP</li>
+				<li>Created Forms</li>
+				<li>Handled server side interfacing using Ajax</li>
+				<li>Wrote content to support business</li>
+			</ul>
+		</div>
+		<div class='contrib'>
+			<ul>
+				<li>1 Designed Site</li>
+				<li>Coded HTML, CSS, Javascript, PHP</li>
+				<li>Created Forms</li>
+				<li>Wrote content to support business</li>
+			</ul>
+		</div>
+		<div class='contrib'>
+			<ul>
+				<li>Designed Site</li>	
+				<li>Coded HTML, CSS, Javascript, jQuery, PHP</li>
+				<li>Created Project Report/Form (click on the red
+					map marker on heading of web page to see report/form)</li>			
+				<li>Handled server side interfacing using Ajax, passing data via JSON</li>
+			</ul>
+		</div>
+		<div class='contrib'>
+			<ul>
+				<li>Designed Sprite tool</li>
+				<li>Coded HTML, CSS, Javascript, jQuery, PHP</li>
+				<li>Used HTML5's canvas feature</li>
+				<li>Used the new 'Files' API to read sprite file from user's local disk</li> 
+			</ul>
+		</div>
+		<div class='contrib'>
+			<ul>
+				<li>Designed the web application</li>
+				<li>Requires a user Id to enter site, so you cannot reach the live site</li>
+				<li>Coded HTML, CSS, Javascript, PHP</li>
+				<li>Wrote email content to send to over 10,000 realtors</li>
+			</ul>
+		</div>
+		
+		<div id='return'>
+			<p>The rest of the story, and more sites are coming soon! In the mean time
+			look around at some of my older work and please stay tuned for more...</p>
+			<p><a href='index.html'>Return</a> to the cover page.</p>
+		</div>
+  </div>	
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script src='js/comicbook.js'></script>
+</body>
+</html>
